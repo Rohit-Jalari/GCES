@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int length=5, area;
+	area = length * length;
+	printf("The area of the square with length %d is %d.\n", length, area);
+
+	system("pause");
+
+	return 0;
+
+
+}

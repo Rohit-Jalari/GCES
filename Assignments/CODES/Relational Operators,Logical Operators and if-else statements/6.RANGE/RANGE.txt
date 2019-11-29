@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+	int low, high, num;
+
+	printf("Enter the lower value of the range :");
+	scanf("%d", &low);
+
+	printf("Enter the higher value of the range :");
+	scanf("%d", &high);
+
+	printf("Enter the number :");
+	scanf("%d", &num);
+
+	if (num>low && num<high)
+	{
+		printf("%d lies between %d and %d.\n", num, low, high);
+	}
+	else 
+	{
+		printf("%d does not lie between %d and %d.\n", num, low, high);
+	}
+	system("pause");
+	return 0;
+}

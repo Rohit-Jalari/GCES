@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	char small_A = 'a', small_E = 'e', small_I = 'i';
+	char small_O = 'o', small_U = 'u';
+
+	printf("%c,%c,%c,%c,%c\n", small_A, small_E, small_I, small_O, small_U);
+
+	system("pause");
+
+	return 0;
+
+}

@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+	int side_A, side_B, side_C;
+
+	printf("Enter the measurement of one side :");
+	scanf("%d", &side_A);
+
+	printf("Enter the measurement of second side : ");
+	scanf("%d", &side_B);
+
+	printf("Enter the mesurement od third side :");
+	scanf("%d", &side_C);
+
+	if(side_A+side_B>side_C || side_B+side_C>side_A||side_A+side_C>side_B)
+	{
+		printf("The triangle is valid.\n");
+	}
+	else 
+	{
+		printf("The triangle is not valid.\n");
+	}
+	system("pause");
+
+	return 0;
+
+}

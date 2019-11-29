@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main() {
+	int length = 5, breadth = 3, perimeter, area;
+	perimeter = 2 * (length + breadth);
+	area = length * breadth;
+	printf("The perimeter of the rectangle is %d\n", perimeter);
+	printf("The area of the rectangle is %d\n", area);
+
+	system("pause");
+	
+	return 0;
+}

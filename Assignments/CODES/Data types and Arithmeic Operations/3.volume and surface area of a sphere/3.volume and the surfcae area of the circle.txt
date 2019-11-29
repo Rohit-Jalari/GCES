@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+	int radius;
+	float volume, surface_area;
+	double PI = 3.1416;
+	
+	printf("Enter the radius of the sphere :");
+	scanf("%d", &radius);
+
+	surface_area = 4 * PI * radius * radius;
+	volume = (4 / 3.0) * PI * radius * radius * radius;
+
+	printf("The volume and the surface area of the circle of the radius"
+		" %d is %f and %f,respectively.\n",radius,volume,surface_area);
+
+	system("pause");
+
+	return 0;
+
+}

@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	double num;
+	int rounded_off;
+
+	printf("Enter the number you want to round off :");
+	scanf("%lf", &num);
+		
+	rounded_off = (int)(num + 0.5);
+
+	printf("The rounded number is %d.\n", rounded_off);
+
+	system("pause");
+
+		return 0; 
+
+}

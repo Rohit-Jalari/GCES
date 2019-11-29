@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+	int year, julian_day, fours, hundreds;
+	int four_hundreds, day_of_the_week;
+	
+	printf("Enter any year:");
+	scanf("%d", &year);
+	printf("\nEnter the julian day:");
+	scanf("%d", &julian_day);
+
+	fours = (year - 1) / 4;
+	hundreds = (year - 1) / 100;
+	four_hundreds = (year - 1) / 400;
+	day_of_the_week = (year + julian_day + fours - hundreds + four_hundreds) % 7;
+
+	if (day_of_the_week == 0) printf("The day is saturday\n");
+	else if (day_of_the_week == 1) printf("The day is sunday\n");
+	else if (day_of_the_week == 2) printf("The day is monday\n");
+	else if (day_of_the_week == 3) printf("The day is tuesday\n");
+	else if (day_of_the_week == 4)printf("The day is wednesday\n");
+	else if (day_of_the_week == 5) printf("The day is thursday\n");
+	else printf("The day is friday\n");
+	
+	system("pause");
+	
+	return 0;
+}

@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+	int first_number, second_number;
+	
+	printf("Enter first number :");
+	scanf("%d", &first_number);
+
+	printf("Enter second number :");
+	scanf("%d", &second_number);
+
+	int product = first_number * second_number;
+
+	if(product==100)
+	{
+		printf("The product is equal to 100\n");
+	}
+	else if(product>100)
+	{
+		printf("The product is greater than 100\n");
+	}
+	else { printf("The product is less than 100\n"); }
+	system("pause");
+	return 0;
+}

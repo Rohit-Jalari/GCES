@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	int inches;
+	float centimeters;
+
+	printf("Enter the length in inches :");
+	scanf("%d", &inches);
+
+	centimeters = inches / 39.37 * 100;
+	printf("The equivalent length in centimeters is %f./n",centimeters);
+
+	system("pause");
+
+	return 0;
+}

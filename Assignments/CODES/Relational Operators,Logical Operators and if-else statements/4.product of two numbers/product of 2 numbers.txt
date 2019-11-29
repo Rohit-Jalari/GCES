@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+	int a, b;
+	
+	printf("Enter first number :");
+	scanf("%d", &a);
+
+	printf("Enter second number :");
+	scanf("%d", &b);
+
+	int product = a * b;
+
+	if(product>a/2)
+	{
+		printf("The product is greater than half of %d\n",a);
+	}
+	else
+	{
+		printf("The product is not greater than half of %d\n", a);
+	}
+	system("pause");
+
+	return 0;
+}

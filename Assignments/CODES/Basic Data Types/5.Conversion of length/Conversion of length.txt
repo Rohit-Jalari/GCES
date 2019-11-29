@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	int yards, feet, inch;
+	int value;
+	printf("Enter the value in inches:",value);
+	scanf("%d",&value);
+
+	yards = value / 36;
+	feet = (value % 36) / 16;
+	inch = (value % 36) % 16;
+
+	printf("%d is quivalent to %d yards %d feet %d inch\n", value, yards, feet, inch);
+	
+	system("pause");
+		
+		return 0;
+}

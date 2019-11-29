@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int num = 5, square, cube;
+	square = num * num;
+	cube = num * num * num;
+	printf("The given number is %d.\n", num);
+	printf("The square of %d is %d.\n", num, square);
+	printf("The cube of %d is %d.\n", num, cube);
+	
+	system("pause");
+	
+	return 0;
+}
